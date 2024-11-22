@@ -1,0 +1,86 @@
+[Localization Editor] this is build env
+favicon.ico:1 
+        
+        
+       GET https://farmlinker-tma-test.dashfun.games/favicon.ico 500 (Internal Server Error)
+_virtual_cc-f71546c7.js:1 LoadScene db://assets/scene/Main.scene: 323.51611328125 ms
+index.js:51 initializePlayerController start ...
+index.js:51 setupEventListeners start ...
+index.js:51 setupEventListeners end ...
+index.js:117 updateScreenSize
+index.js:117 竖屏
+index.js:51 start start ...
+index.js:117 canvas size changed y pos = 1080
+index.js:117 gameplay canvas size changed y pos = 1080
+index.js:117 canvas size changed y pos = 4428
+index.js:117 gameplay canvas size changed y pos = 1080
+index.js:33 DashFunManager constructor
+index.js:33 updateLoadingProgress 10
+index.js:95 MainWindow initialized
+index.js:95 MainWindow shown
+index.js:33 getUserProfile start...
+index.js:53 MainWindow shown successfully
+2index.js:33 onMessage start ...
+index.js:51 screenSize:(1920.00, 1080.00)
+index.js:51 screenScale:(1.78, 0.56)
+index.js:95 onStartButtonClicked start...
+index.js:51 login start ...
+index.js:97 https://farmlinker-tma-test.dashfun.games/login
+index.js:97 Login successful {success: true, sessionToken: 'c1194f3d-8053-4fd8-b1d5-6d3c98ea3e93', user: {…}}
+index.js:51 onLoginSuccess: userData: {id: '666', nickname: 'Player4516', password: '123', level: 1, exp: 125, …}
+index.js:107 PlayerState: checkLevelUp  level: 1 experience: 125
+index.js:107 PlayerState: checkLevelUp  level: 1 experience: 25
+index.js:107 set level: 2
+index.js:107 PlayerState: checkLevelUp  levelup: 2 experience: 25
+index.js:107 PlayerState: checkLevelUp  level: 2 experience: 25
+index.js:51 onLoginSuccess: networkInventoryItems: (9) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+index.js:51 onLoginSuccess end ... 
+index.js:97 https://farmlinker-tma-test.dashfun.games/game/getUserSceneItems
+index.js:97 {"success":true,"data":[],"userid":"666"}
+index.js:51 get user scene items {success: true, data: Array(0), userid: '666'}
+index.js:51 plotNum:6
+index.js:51 initializePlotTiles:6
+index.js:95 MainWindow hidden
+index.js:55 refreshBasePlayerStateInfo: level: 2
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 25
+index.js:55 updateButtonsVisibility false
+index.js:109 start , name = PilotTile-004 pos = (910.98, 641.83, 0.00)
+index.js:109 start , name = PilotTile-005 pos = (1011.04, 590.20, 0.00)
+index.js:109 start , name = PilotTile-002 pos = (810.91, 591.10, 0.00)
+index.js:109 start , name = PilotTile-003 pos = (910.11, 539.61, 0.00)
+index.js:109 start , name = PilotTile pos = (707.46, 540.58, 0.00)
+index.js:109 start , name = PilotTile-001 pos = (807.47, 488.16, 0.00)
+index.js:55 (5) [{…}, {…}, {…}, {…}, {…}]
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 2
+index.js:33 onMessage start ...

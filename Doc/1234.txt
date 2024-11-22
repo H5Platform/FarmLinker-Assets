@@ -1,0 +1,1941 @@
+[Localization Editor] this is build env
+_virtual_cc-f71546c7.js:1 LoadScene db://assets/scene/Main.scene: 317.592041015625 ms
+index.js:51 initializePlayerController start ...
+index.js:51 setupEventListeners start ...
+index.js:51 setupEventListeners end ...
+index.js:117 updateScreenSize
+index.js:117 竖屏
+index.js:51 start start ...
+index.js:117 canvas size changed y pos = 1080
+index.js:117 gameplay canvas size changed y pos = 1080
+index.js:117 canvas size changed y pos = 2695.2631578947367
+index.js:117 gameplay canvas size changed y pos = 1080
+index.js:33 DashFunManager constructor
+index.js:33 updateLoadingProgress 10
+index.js:95 MainWindow initialized
+index.js:95 MainWindow shown
+index.js:33 getUserProfile start...
+index.js:53 MainWindow shown successfully
+2index.js:33 onMessage start ...
+index.js:51 screenSize:(1920.00, 1080.00)
+index.js:51 screenScale:(1.78, 0.56)
+index.js:95 onStartButtonClicked start...
+index.js:51 login start ...
+index.js:97 https://farmlinker-tma-test.dashfun.games/login
+index.js:97 Login successful {success: true, sessionToken: '925aaabc-8b27-46c6-a514-a363a76cfed4', user: {…}}
+index.js:51 onLoginSuccess: userData: {id: '555', nickname: 'Player509', level: 1, exp: 65, coin: 90, …}
+index.js:107 PlayerState: checkLevelUp  level: 1 experience: 65
+index.js:51 onLoginSuccess: networkInventoryItems: (2) [{…}, {…}]
+index.js:51 onLoginSuccess end ... 
+index.js:97 https://farmlinker-tma-test.dashfun.games/game/getUserSceneItems
+index.js:97 {"success":true,"data":[{"id":"1732029918408","item_id":"2011","type":2,"x":1634,"y":515,"state":1,"userid":"555","parent_node_name":"Fence_02","last_updated_time":"2024-11-19T15:25:18.000Z","elapsed_time":243470.161,"commands":[]},{"id":"1732029919627","item_id":"2011","type":2,"x":1738,"y":525,"state":1,"userid":"555","parent_node_name":"Fence_02","last_updated_time":"2024-11-19T15:25:20.000Z","elapsed_time":243468.161,"commands":[]},{"id":"1732029921884","item_id":"2011","type":2,"x":1847,"y":492,"state":1,"userid":"555","parent_node_name":"Fence_02","last_updated_time":"2024-11-19T15:25:22.000Z","elapsed_time":243466.161,"commands":[]},{"id":"1732029923491","item_id":"2021","type":2,"x":1671,"y":429,"state":1,"userid":"555","parent_node_name":"Fence_02","last_updated_time":"2024-11-19T15:25:23.000Z","elapsed_time":243465.161,"commands":[]},{"id":"1732029926005","item_id":"2021","type":2,"x":1732,"y":447,"state":1,"userid":"555","parent_node_name":"Fence_02","last_updated_time":"2024-11-19T15:25:26.000Z","elapsed_time":243462.161,"commands":[]}],"userid":"555"}
+index.js:51 get user scene items {success: true, data: Array(5), userid: '555'}
+index.js:51 plotNum:5
+index.js:51 initializePlotTiles:5
+index.js:51 item:id1732029918408
+index.js:51 Creating animal node for item 1732029918408
+index.js:51 Loading prefab for item 1732029918408
+index.js:95 MainWindow hidden
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:55 updateButtonsVisibility false
+index.js:51 Instantiating prefab for item 1732029918408
+index.js:51 Initializing animal for item 1732029918408
+index.js:59 initializeWithSceneItem , id = 1732029918408
+index.js:59 careCount = 0 , treatCount = 0 , cleanseCount = 0
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 growth time: 0
+index.js:59 updateSickState start..., isSick = false
+index.js:59 current growth stage index: 1
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Missed intervals: 67
+index.js:59 Next disease update time: 1328.9409999847412
+index.js:49 addAnimal t {_objFlags: 0, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:49 addAnimal canAcceptAnimal t {_objFlags: 0, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:59 start growing 
+index.js:59 growth complete , current growth stage index: 1
+index.js:59 growth complete , growState = 2
+index.js:51 item:id1732029919627
+index.js:51 Creating animal node for item 1732029919627
+index.js:51 Loading prefab for item 1732029919627
+index.js:51 Instantiating prefab for item 1732029919627
+index.js:51 Initializing animal for item 1732029919627
+index.js:59 initializeWithSceneItem , id = 1732029919627
+index.js:59 careCount = 0 , treatCount = 0 , cleanseCount = 0
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 growth time: 0
+index.js:59 updateSickState start..., isSick = false
+index.js:59 current growth stage index: 1
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Missed intervals: 67
+index.js:59 Next disease update time: 1330.9379999637604
+index.js:49 addAnimal t {_objFlags: 0, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:49 addAnimal canAcceptAnimal t {_objFlags: 0, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:59 start growing 
+index.js:59 growth complete , current growth stage index: 1
+index.js:59 growth complete , growState = 2
+index.js:51 item:id1732029921884
+index.js:51 Creating animal node for item 1732029921884
+index.js:51 Loading prefab for item 1732029921884
+index.js:51 Instantiating prefab for item 1732029921884
+index.js:51 Initializing animal for item 1732029921884
+index.js:59 initializeWithSceneItem , id = 1732029921884
+index.js:59 careCount = 0 , treatCount = 0 , cleanseCount = 0
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 growth time: 0
+index.js:59 updateSickState start..., isSick = false
+index.js:59 current growth stage index: 1
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Missed intervals: 67
+index.js:59 Next disease update time: 1332.9360001087189
+index.js:49 addAnimal t {_objFlags: 0, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:49 addAnimal canAcceptAnimal t {_objFlags: 0, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:59 start growing 
+index.js:59 growth complete , current growth stage index: 1
+index.js:59 growth complete , growState = 2
+index.js:51 item:id1732029923491
+index.js:51 Creating animal node for item 1732029923491
+index.js:51 Loading prefab for item 1732029923491
+index.js:51 Instantiating prefab for item 1732029923491
+index.js:51 Initializing animal for item 1732029923491
+index.js:59 initializeWithSceneItem , id = 1732029923491
+index.js:59 careCount = 0 , treatCount = 0 , cleanseCount = 0
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 growth time: 0
+index.js:59 updateSickState start..., isSick = false
+index.js:59 current growth stage index: 1
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Missed intervals: 67
+index.js:59 Next disease update time: 1333.933000087738
+index.js:49 addAnimal t {_objFlags: 0, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:49 addAnimal canAcceptAnimal t {_objFlags: 0, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:59 start growing 
+index.js:59 growth complete , current growth stage index: 1
+index.js:59 growth complete , growState = 2
+index.js:51 item:id1732029926005
+index.js:51 Creating animal node for item 1732029926005
+index.js:51 Loading prefab for item 1732029926005
+index.js:51 Instantiating prefab for item 1732029926005
+index.js:51 Initializing animal for item 1732029926005
+index.js:59 initializeWithSceneItem , id = 1732029926005
+index.js:59 careCount = 0 , treatCount = 0 , cleanseCount = 0
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 growth time: 0
+index.js:59 updateSickState start..., isSick = false
+index.js:59 current growth stage index: 1
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Missed intervals: 67
+index.js:59 Next disease update time: 1336.9289999008179
+index.js:49 addAnimal t {_objFlags: 0, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:49 addAnimal canAcceptAnimal t {_objFlags: 0, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:59 start growing 
+index.js:59 growth complete , current growth stage index: 1
+index.js:59 growth complete , growState = 2
+index.js:109 start , name = PilotTile-004 pos = (910.98, 641.83, 0.00)
+index.js:109 start , name = PilotTile-002 pos = (810.91, 591.10, 0.00)
+index.js:109 start , name = PilotTile-003 pos = (910.11, 539.61, 0.00)
+index.js:109 start , name = PilotTile pos = (707.46, 540.58, 0.00)
+index.js:109 start , name = PilotTile-001 pos = (807.47, 488.16, 0.00)
+index.js:59 updateSickState start..., isSick = true
+index.js:59 Entity 2012 has become sick
+index.js:59 update disease status failed , diseaseCommandIndex = -1 , result.last_updated_time = 2024-11-22T11:03:08.799Z
+（匿名） @ index.js:59
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:59
+u.scheduleDiseaseStatusUpdate @ index.js:59
+u.initializeWithSceneItem @ index.js:59
+c.initializeWithSceneItem @ index.js:1
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+h @ bundle.js:42
+_ @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ index.js:97
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:97
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:95
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:95
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+i._onTouchEnded @ _virtual_cc-f71546c7.js:3
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Next disease update time: 3599.154000043869
+index.js:59 updateSickState start..., isSick = true
+index.js:59 Entity 2012 has become sick
+index.js:59 update disease status failed , diseaseCommandIndex = -1 , result.last_updated_time = 2024-11-22T11:03:08.806Z
+（匿名） @ index.js:59
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:59
+u.scheduleDiseaseStatusUpdate @ index.js:59
+u.initializeWithSceneItem @ index.js:59
+c.initializeWithSceneItem @ index.js:1
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+h @ bundle.js:42
+_ @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ index.js:97
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:97
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:95
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:95
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+i._onTouchEnded @ _virtual_cc-f71546c7.js:3
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Next disease update time: 3599.1589999198914
+index.js:59 updateSickState start..., isSick = true
+index.js:59 Entity 2012 has become sick
+index.js:59 update disease status failed , diseaseCommandIndex = -1 , result.last_updated_time = 2024-11-22T11:03:08.801Z
+（匿名） @ index.js:59
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:59
+u.scheduleDiseaseStatusUpdate @ index.js:59
+u.initializeWithSceneItem @ index.js:59
+c.initializeWithSceneItem @ index.js:1
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+h @ bundle.js:42
+_ @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ index.js:97
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:97
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:95
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:95
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+i._onTouchEnded @ _virtual_cc-f71546c7.js:3
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Next disease update time: 3599.1520001888275
+index.js:59 updateSickState start..., isSick = true
+index.js:59 Entity 2022 has become sick
+index.js:59 update disease status failed , diseaseCommandIndex = -1 , result.last_updated_time = 2024-11-22T11:03:09.432Z
+（匿名） @ index.js:59
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:59
+u.scheduleDiseaseStatusUpdate @ index.js:59
+u.initializeWithSceneItem @ index.js:59
+c.initializeWithSceneItem @ index.js:1
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+h @ bundle.js:42
+_ @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ index.js:97
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:97
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:95
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:95
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+i._onTouchEnded @ _virtual_cc-f71546c7.js:3
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Next disease update time: 3599.1589999198914
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:55 (5) [{…}, {…}, {…}, {…}, {…}]
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:59 updateSickState start..., isSick = true
+index.js:59 Entity 2022 has become sick
+index.js:59 update disease status failed , diseaseCommandIndex = -1 , result.last_updated_time = 2024-11-22T11:03:11.868Z
+（匿名） @ index.js:59
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:59
+u.scheduleDiseaseStatusUpdate @ index.js:59
+u.initializeWithSceneItem @ index.js:59
+c.initializeWithSceneItem @ index.js:1
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+h @ bundle.js:42
+_ @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ index.js:97
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:97
+（匿名） @ index.js:51
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:51
+（匿名） @ index.js:95
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:95
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+i._onTouchEnded @ _virtual_cc-f71546c7.js:3
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Next disease update time: 3599.151000022888
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1634.00, 515.00, 0.00), localPos: (-253.13, 6.91, 0.00),touchPos = (1417.06, 459.11)
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (-253.13, 6.91, 0.00),touchPos = (1417.06, 459.11)
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-253.13, 6.91, 0.00),touchPos = (1417.06, 459.11)
+index.js:49 Animal 2022 worldPos: (1671.00, 429.00, 0.00), localPos: (-253.13, 6.91, 0.00),touchPos = (1417.06, 459.11)
+index.js:49 Animal 2022 worldPos: (1732.00, 447.00, 0.00), localPos: (-253.13, 6.91, 0.00),touchPos = (1417.06, 459.11)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 0
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1634.00, 515.00, 0.00), localPos: (-253.13, 6.91, 0.00),touchPos = (1417.06, 459.11)
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (-253.13, 6.91, 0.00),touchPos = (1417.06, 459.11)
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-253.13, 6.91, 0.00),touchPos = (1417.06, 459.11)
+index.js:49 Animal 2022 worldPos: (1671.00, 429.00, 0.00), localPos: (-253.13, 6.91, 0.00),touchPos = (1417.06, 459.11)
+index.js:49 Animal 2022 worldPos: (1732.00, 447.00, 0.00), localPos: (-253.13, 6.91, 0.00),touchPos = (1417.06, 459.11)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 0
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1634.00, 515.00, 0.00), localPos: (-237.95, 50.57, 0.00),touchPos = (1432.25, 502.76)
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (-237.95, 50.57, 0.00),touchPos = (1432.25, 502.76)
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-237.95, 50.57, 0.00),touchPos = (1432.25, 502.76)
+index.js:49 Animal 2022 worldPos: (1671.00, 429.00, 0.00), localPos: (-237.95, 50.57, 0.00),touchPos = (1432.25, 502.76)
+index.js:49 Animal 2022 worldPos: (1732.00, 447.00, 0.00), localPos: (-237.95, 50.57, 0.00),touchPos = (1432.25, 502.76)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 0
+index.js:47 FarmSelectionWindow: onClick
+index.js:47 FarmSelectionWindow: onTouchEnd
+index.js:47 hide FarmSelectionWindow
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1634.00, 515.00, 0.00), localPos: (-237.95, 50.57, 0.00),touchPos = (1432.25, 502.76)
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (-237.95, 50.57, 0.00),touchPos = (1432.25, 502.76)
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-237.95, 50.57, 0.00),touchPos = (1432.25, 502.76)
+index.js:49 Animal 2022 worldPos: (1671.00, 429.00, 0.00), localPos: (-237.95, 50.57, 0.00),touchPos = (1432.25, 502.76)
+index.js:49 Animal 2022 worldPos: (1732.00, 447.00, 0.00), localPos: (-237.95, 50.57, 0.00),touchPos = (1432.25, 502.76)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 0
+index.js:89 updateRealScale start .. name = content, originalContentSize: (910.00, 10.00, 0.00)
+index.js:89 realScale: (1.00, 1.00, 1.00)
+index.js:89 layout padding: 10, 0, 10, 0
+index.js:89 layout spacing: 4, 10
+index.js:89 updateRealScale start .. name = content, originalContentSize: (1758.69, 1590.88, 0.00)
+index.js:89 realScale: (1.93, 1.00, 1.00)
+index.js:89 layout padding: 19, 0, 10, 0
+index.js:89 layout spacing: 7, 10
+index.js:89 updateRealScale start .. name = content, originalContentSize: (1758.69, 2545.40, 0.00)
+index.js:89 realScale: (1.93, 1.00, 1.00)
+index.js:89 layout padding: 19, 0, 10, 0
+index.js:89 layout spacing: 7, 10
+index.js:89 updateRealScale start .. name = content, originalContentSize: (918.69, 2545.40, 0.00)
+index.js:89 realScale: (1.00, 1.00, 1.00)
+index.js:89 layout padding: 10, 0, 10, 0
+index.js:89 layout spacing: 4, 10
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:73 Added 1 of item with id: 200101
+index.js:123 Bought item: Item_WheatSeed
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:73 Added 1 of item with id: 200102
+index.js:123 Bought item: Item_LettuceSeed
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:73 Added 1 of item with id: 200103
+index.js:123 Bought item: Item_CarrotSeed
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:73 Added 1 of item with id: 200104
+index.js:123 Bought item: Item_TomatoSeed
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:73 Added 1 of item with id: 200105
+index.js:123 Bought item: Item_CornSeed
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:73 Added 1 of item with id: 200106
+index.js:123 Bought item: Item_PotatoSeed
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:73 Added 1 of item with id: 400101
+index.js:123 Bought item: Item_ChickenBaby
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:73 Added 1 of item with id: 400103
+index.js:123 Bought item: Item_SheepBaby
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:73 Added 1 of item with id: 400102
+index.js:123 Bought item: Item_DuckBaby
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1634.00, 515.00, 0.00), localPos: (-182.90, 71.45, 0.00),touchPos = (1487.29, 523.64)
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (-182.90, 71.45, 0.00),touchPos = (1487.29, 523.64)
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-182.90, 71.45, 0.00),touchPos = (1487.29, 523.64)
+index.js:49 Animal 2022 worldPos: (1671.00, 429.00, 0.00), localPos: (-182.90, 71.45, 0.00),touchPos = (1487.29, 523.64)
+index.js:49 Animal 2022 worldPos: (1732.00, 447.00, 0.00), localPos: (-182.90, 71.45, 0.00),touchPos = (1487.29, 523.64)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 3
+index.js:47 FarmSelectionWindow: onClick
+index.js:47 FarmSelectionWindow: onTouchEnd
+index.js:47 hide FarmSelectionWindow
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1634.00, 515.00, 0.00), localPos: (-215.17, 50.57, 0.00),touchPos = (1455.02, 502.76)
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (-215.17, 50.57, 0.00),touchPos = (1455.02, 502.76)
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-215.17, 50.57, 0.00),touchPos = (1455.02, 502.76)
+index.js:49 Animal 2022 worldPos: (1671.00, 429.00, 0.00), localPos: (-215.17, 50.57, 0.00),touchPos = (1455.02, 502.76)
+index.js:49 Animal 2022 worldPos: (1732.00, 447.00, 0.00), localPos: (-215.17, 50.57, 0.00),touchPos = (1455.02, 502.76)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 3
+index.js:47 hide FarmSelectionWindow
+index.js:43 Dragging object 2011 to drag container
+index.js:43 endPosition = (1439.84, 476.19)
+index.js:49 result = [object Object]
+index.js:43 acceptedDropZone = Fence_02
+index.js:21 Starting cooldown with key "select" for 1 seconds
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1634.00, 515.00, 0.00), localPos: (-198.09, -40.54, 0.00),touchPos = (1472.11, 411.66)
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (-198.09, -40.54, 0.00),touchPos = (1472.11, 411.66)
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-198.09, -40.54, 0.00),touchPos = (1472.11, 411.66)
+index.js:49 Animal 2022 worldPos: (1671.00, 429.00, 0.00), localPos: (-198.09, -40.54, 0.00),touchPos = (1472.11, 411.66)
+index.js:49 Animal 2022 worldPos: (1732.00, 447.00, 0.00), localPos: (-198.09, -40.54, 0.00),touchPos = (1472.11, 411.66)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 3
+index.js:59 initializeWithSceneItem , id = 1732273417532
+index.js:59 careCount = 0 , treatCount = 0 , cleanseCount = 0
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 growth time: 5.1540000438690186
+index.js:59 updateSickState start..., isSick = false
+index.js:59 current growth stage index: 0
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Next disease update time: 3599.1530001163483
+index.js:49 addAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:49 addAnimal canAcceptAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:59 start growing 
+index.js:21 Starting cooldown with key "growth" for 5.1540000438690186 seconds
+index.js:47 hide FarmSelectionWindow
+index.js:43 Dragging object 2031 to drag container
+index.js:43 endPosition = (1504.37, 405.96)
+index.js:49 result = [object Object]
+index.js:43 acceptedDropZone = Fence_02
+index.js:21 Starting cooldown with key "select" for 1 seconds
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:59 initializeWithSceneItem , id = 1732273419137
+index.js:59 careCount = 0 , treatCount = 0 , cleanseCount = 0
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 growth time: 5.156000137329102
+index.js:59 updateSickState start..., isSick = false
+index.js:59 current growth stage index: 0
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Next disease update time: 3599.156000137329
+index.js:49 addAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:49 addAnimal canAcceptAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:59 start growing 
+index.js:21 Starting cooldown with key "growth" for 5.156000137329102 seconds
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1634.00, 515.00, 0.00), localPos: (-306.28, -8.27, 0.00),touchPos = (1363.92, 443.92)
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (-306.28, -8.27, 0.00),touchPos = (1363.92, 443.92)
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-306.28, -8.27, 0.00),touchPos = (1363.92, 443.92)
+index.js:49 Animal 2022 worldPos: (1671.00, 429.00, 0.00), localPos: (-306.28, -8.27, 0.00),touchPos = (1363.92, 443.92)
+index.js:49 Animal 2022 worldPos: (1732.00, 447.00, 0.00), localPos: (-306.28, -8.27, 0.00),touchPos = (1363.92, 443.92)
+index.js:49 Animal 2011 worldPos: (1439.84, 476.19, 0.00), localPos: (-306.28, -8.27, 0.00),touchPos = (1363.92, 443.92)
+index.js:49 Animal 2031 worldPos: (1504.37, 405.96, 0.00), localPos: (-306.28, -8.27, 0.00),touchPos = (1363.92, 443.92)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 1
+index.js:47 hide FarmSelectionWindow
+index.js:43 Dragging object 2021 to drag container
+index.js:43 endPosition = (1365.82, 440.13)
+index.js:49 result = [object Object]
+index.js:43 acceptedDropZone = Fence_02
+index.js:21 Starting cooldown with key "select" for 1 seconds
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:59 initializeWithSceneItem , id = 1732273422519
+index.js:59 careCount = 0 , treatCount = 0 , cleanseCount = 0
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 growth time: 5.1570000648498535
+index.js:59 updateSickState start..., isSick = false
+index.js:59 current growth stage index: 0
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Next disease update time: 3599.15700006485
+index.js:49 addAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:49 addAnimal canAcceptAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:59 start growing 
+index.js:21 Starting cooldown with key "growth" for 5.1570000648498535 seconds
+index.js:59 request next growth 
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 remainingTime = 0
+index.js:59 growth complete , current growth stage index: 1
+index.js:59 growth complete , growState = 2
+index.js:59 request next growth 
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 remainingTime = 0
+index.js:59 growth complete , current growth stage index: 1
+index.js:59 growth complete , growState = 2
+index.js:59 request next growth 
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 remainingTime = 0
+index.js:59 growth complete , current growth stage index: 1
+index.js:59 growth complete , growState = 2
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+favicon.ico:1 
+        
+        
+       GET https://farmlinker-tma-test.dashfun.games/favicon.ico 504 (Gateway Timeout)
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:73 Added 1 of item with id: 200101
+index.js:123 Bought item: Item_WheatSeed
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 65
+index.js:73 Added 1 of item with id: 200102
+index.js:123 Bought item: Item_LettuceSeed
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Plots
+index.js:105 PlotTile node does not have PlotTile component
+（匿名） @ index.js:105
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:105
+e.touchEndHandler @ index.js:69
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1634.00, 515.00, 0.00), localPos: (-159.07, -47.48, 0.00),touchPos = (1511.13, 404.72)
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (-159.07, -47.48, 0.00),touchPos = (1511.13, 404.72)
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-159.07, -47.48, 0.00),touchPos = (1511.13, 404.72)
+index.js:49 Animal 2022 worldPos: (1671.00, 429.00, 0.00), localPos: (-159.07, -47.48, 0.00),touchPos = (1511.13, 404.72)
+index.js:49 Animal 2022 worldPos: (1732.00, 447.00, 0.00), localPos: (-159.07, -47.48, 0.00),touchPos = (1511.13, 404.72)
+index.js:49 Animal 2012 worldPos: (1439.84, 476.19, 0.00), localPos: (-159.07, -47.48, 0.00),touchPos = (1511.13, 404.72)
+index.js:49 Animal 2032 worldPos: (1504.37, 405.96, 0.00), localPos: (-159.07, -47.48, 0.00),touchPos = (1511.13, 404.72)
+index.js:49 Animal 2032 is selected
+index.js:51 harvest result {success: true, data: {…}, message: '收获成功'}
+index.js:51 networkHarvestResultData {userid: '555', item_id: '300103', exp_gained: 35, new_exp: 100, new_level: 1, …}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 100
+index.js:107 PlayerState: checkLevelUp  level: 1 experience: 100
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 0
+index.js:107 PlayerState: checkLevelUp  level: 1 experience: 0
+index.js:107 set level: 2
+index.js:55 refreshBasePlayerStateInfo: level: 2
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 0
+index.js:107 PlayerState: checkLevelUp  levelup: 2 experience: 0
+index.js:107 PlayerState: checkLevelUp  level: 2 experience: 0
+index.js:107 set level: 1
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 0
+index.js:73 Added 1 of item with id: 300103
+index.js:49 onAnimalHarvest t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1634.00, 515.00, 0.00), localPos: (-23.64, 63.63, 0.00),touchPos = (1646.55, 515.82)
+index.js:49 Animal 2012 is selected
+index.js:51 harvest result {success: true, data: {…}, message: '收获成功'}
+index.js:51 networkHarvestResultData {userid: '555', item_id: '300101', exp_gained: 15, new_exp: 115, new_level: 1, …}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 15
+index.js:107 PlayerState: checkLevelUp  level: 1 experience: 15
+index.js:73 Added 1 of item with id: 300101
+index.js:49 onAnimalHarvest t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (10.53, -42.66, 0.00),touchPos = (1680.72, 409.53)
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (10.53, -42.66, 0.00),touchPos = (1680.72, 409.53)
+index.js:49 Animal 2022 worldPos: (1671.00, 429.00, 0.00), localPos: (10.53, -42.66, 0.00),touchPos = (1680.72, 409.53)
+index.js:49 Animal 2022 is selected
+index.js:51 harvest result {success: true, data: {…}, message: '收获成功'}
+index.js:51 networkHarvestResultData {userid: '555', item_id: '300102', exp_gained: 20, new_exp: 135, new_level: 1, …}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 35
+index.js:107 PlayerState: checkLevelUp  level: 1 experience: 35
+index.js:73 Added 1 of item with id: 300102
+index.js:49 onAnimalHarvest t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (54.18, -4.70, 0.00),touchPos = (1724.37, 447.49)
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (54.18, -4.70, 0.00),touchPos = (1724.37, 447.49)
+index.js:49 Animal 2022 worldPos: (1732.00, 447.00, 0.00), localPos: (54.18, -4.70, 0.00),touchPos = (1724.37, 447.49)
+index.js:49 Animal 2022 is selected
+index.js:51 harvest result {success: true, data: {…}, message: '收获成功'}
+index.js:51 networkHarvestResultData {userid: '555', item_id: '300102', exp_gained: 20, new_exp: 155, new_level: 1, …}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 55
+index.js:107 PlayerState: checkLevelUp  level: 1 experience: 55
+index.js:73 Added 1 of item with id: 300102
+index.js:49 onAnimalHarvest t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1738.00, 525.00, 0.00), localPos: (56.08, 69.32, 0.00),touchPos = (1726.27, 521.52)
+index.js:49 Animal 2012 is selected
+index.js:51 harvest result {success: true, data: {…}, message: '收获成功'}
+index.js:51 networkHarvestResultData {userid: '555', item_id: '300101', exp_gained: 15, new_exp: 170, new_level: 1, …}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 70
+index.js:107 PlayerState: checkLevelUp  level: 1 experience: 70
+index.js:73 Added 1 of item with id: 300101
+index.js:49 onAnimalHarvest t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-46.42, 12.38, 0.00),touchPos = (1623.78, 464.57)
+index.js:49 Animal 2012 worldPos: (1439.84, 476.19, 0.00), localPos: (-46.42, 12.38, 0.00),touchPos = (1623.78, 464.57)
+index.js:49 Animal 2022 worldPos: (1365.82, 440.13, 0.00), localPos: (-46.42, 12.38, 0.00),touchPos = (1623.78, 464.57)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 0
+index.js:123 Not enough gold to buy this item!
+index.js:123 Showing sell items: 9
+index.js:123 Item Item_WheatSeed has no sell price , sell price = 0
+index.js:123 Item Item_CarrotSeed has no sell price , sell price = 0
+index.js:123 Item Item_LettuceSeed has no sell price , sell price = 0
+index.js:123 Item Item_TomatoSeed has no sell price , sell price = 0
+index.js:123 Item Item_CornSeed has no sell price , sell price = 0
+index.js:123 Item Item_PotatoSeed has no sell price , sell price = 0
+index.js:123 sellItem success
+index.js:123 Sold item: Item_Sheep for 60 gold
+index.js:123 Showing sell items: 8
+index.js:123 Item Item_WheatSeed has no sell price , sell price = 0
+index.js:123 Item Item_CarrotSeed has no sell price , sell price = 0
+index.js:123 Item Item_LettuceSeed has no sell price , sell price = 0
+index.js:123 Item Item_TomatoSeed has no sell price , sell price = 0
+index.js:123 Item Item_CornSeed has no sell price , sell price = 0
+index.js:123 Item Item_PotatoSeed has no sell price , sell price = 0
+index.js:123 sellItem success
+index.js:123 Sold item: Item_Chicken for 20 gold
+index.js:123 Showing sell items: 8
+index.js:123 Item Item_WheatSeed has no sell price , sell price = 0
+index.js:123 Item Item_CarrotSeed has no sell price , sell price = 0
+index.js:123 Item Item_LettuceSeed has no sell price , sell price = 0
+index.js:123 Item Item_TomatoSeed has no sell price , sell price = 0
+index.js:123 Item Item_CornSeed has no sell price , sell price = 0
+index.js:123 Item Item_PotatoSeed has no sell price , sell price = 0
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 70
+index.js:123 Sold item: Item_Sheep for 60 gold
+index.js:123 sellItem success
+index.js:123 Sold item: Item_Duck for 30 gold
+index.js:123 Showing sell items: 8
+index.js:123 Item Item_WheatSeed has no sell price , sell price = 0
+index.js:123 Item Item_CarrotSeed has no sell price , sell price = 0
+index.js:123 Item Item_LettuceSeed has no sell price , sell price = 0
+index.js:123 Item Item_TomatoSeed has no sell price , sell price = 0
+index.js:123 Item Item_CornSeed has no sell price , sell price = 0
+index.js:123 Item Item_PotatoSeed has no sell price , sell price = 0
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 70
+index.js:123 Sold item: Item_Chicken for 20 gold
+index.js:123 sellItem success
+index.js:123 Sold item: Item_Duck for 30 gold
+index.js:123 Showing sell items: 7
+index.js:123 Item Item_WheatSeed has no sell price , sell price = 0
+index.js:123 Item Item_CarrotSeed has no sell price , sell price = 0
+index.js:123 Item Item_LettuceSeed has no sell price , sell price = 0
+index.js:123 Item Item_TomatoSeed has no sell price , sell price = 0
+index.js:123 Item Item_CornSeed has no sell price , sell price = 0
+index.js:123 Item Item_PotatoSeed has no sell price , sell price = 0
+index.js:123 sellItem success
+index.js:123 Sold item: Item_Chicken for 20 gold
+index.js:123 Showing sell items: 6
+index.js:123 Item Item_WheatSeed has no sell price , sell price = 0
+index.js:123 Item Item_CarrotSeed has no sell price , sell price = 0
+index.js:123 Item Item_LettuceSeed has no sell price , sell price = 0
+index.js:123 Item Item_TomatoSeed has no sell price , sell price = 0
+index.js:123 Item Item_CornSeed has no sell price , sell price = 0
+index.js:123 Item Item_PotatoSeed has no sell price , sell price = 0
+index.js:73 Item with id 300102 not found in inventory.
+（匿名） @ index.js:73
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:73
+（匿名） @ index.js:123
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:123
+（匿名） @ index.js:123
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+i._onTouchEnded @ _virtual_cc-f71546c7.js:3
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:123 sellItem success
+index.js:123 Sold item: Item_Duck for 30 gold
+index.js:123 Showing sell items: 6
+index.js:123 Item Item_WheatSeed has no sell price , sell price = 0
+index.js:123 Item Item_CarrotSeed has no sell price , sell price = 0
+index.js:123 Item Item_LettuceSeed has no sell price , sell price = 0
+index.js:123 Item Item_TomatoSeed has no sell price , sell price = 0
+index.js:123 Item Item_CornSeed has no sell price , sell price = 0
+index.js:123 Item Item_PotatoSeed has no sell price , sell price = 0
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 70
+index.js:123 Sold item: Item_Duck for 30 gold
+index.js:73 Item with id 300101 not found in inventory.
+（匿名） @ index.js:73
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:73
+（匿名） @ index.js:123
+h @ bundle.js:42
+（匿名） @ bundle.js:42
+（匿名） @ bundle.js:42
+r @ bundle.js:40
+u @ bundle.js:40
+Promise.then（异步）
+r @ bundle.js:40
+u @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ bundle.js:40
+（匿名） @ index.js:123
+（匿名） @ index.js:123
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+i._onTouchEnded @ _virtual_cc-f71546c7.js:3
+e.emit @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e.dispatchEvent @ _virtual_cc-f71546c7.js:1
+e._handleTouchEnd @ _virtual_cc-f71546c7.js:1
+e._handleEventTouch @ _virtual_cc-f71546c7.js:1
+e.dispatchEventTouch @ _virtual_cc-f71546c7.js:3
+e.dispatchEvent @ _virtual_cc-f71546c7.js:3
+e._emitEvent @ _virtual_cc-f71546c7.js:1
+e._dispatchOrPushEventTouch @ _virtual_cc-f71546c7.js:1
+e._simulateEventTouch @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+e.emit @ _virtual_cc-f71546c7.js:1
+（匿名） @ _virtual_cc-f71546c7.js:1
+index.js:123 sellItem success
+index.js:123 Sold item: Item_Chicken for 20 gold
+index.js:123 Showing sell items: 6
+index.js:123 Item Item_WheatSeed has no sell price , sell price = 0
+index.js:123 Item Item_CarrotSeed has no sell price , sell price = 0
+index.js:123 Item Item_LettuceSeed has no sell price , sell price = 0
+index.js:123 Item Item_TomatoSeed has no sell price , sell price = 0
+index.js:123 Item Item_CornSeed has no sell price , sell price = 0
+index.js:123 Item Item_PotatoSeed has no sell price , sell price = 0
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 70
+index.js:123 Sold item: Item_Duck for 30 gold
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 70
+index.js:123 Sold item: Item_Chicken for 20 gold
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 70
+index.js:123 Sold item: Item_Duck for 30 gold
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 70
+index.js:123 Sold item: Item_Chicken for 20 gold
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-6.56, 99.69, 0.00),touchPos = (1663.64, 551.89)
+index.js:49 Animal 2012 worldPos: (1439.84, 476.19, 0.00), localPos: (-6.56, 99.69, 0.00),touchPos = (1663.64, 551.89)
+index.js:49 Animal 2022 worldPos: (1365.82, 440.13, 0.00), localPos: (-6.56, 99.69, 0.00),touchPos = (1663.64, 551.89)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 0
+index.js:47 FarmSelectionWindow: onClick
+index.js:47 FarmSelectionWindow: onTouchEnd
+index.js:47 hide FarmSelectionWindow
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-17.95, 71.22, 0.00),touchPos = (1652.25, 523.41)
+index.js:49 Animal 2012 worldPos: (1439.84, 476.19, 0.00), localPos: (-17.95, 71.22, 0.00),touchPos = (1652.25, 523.41)
+index.js:49 Animal 2022 worldPos: (1365.82, 440.13, 0.00), localPos: (-17.95, 71.22, 0.00),touchPos = (1652.25, 523.41)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 0
+index.js:123 Showing sell items: 6
+index.js:123 Item Item_WheatSeed has no sell price , sell price = 0
+index.js:123 Item Item_CarrotSeed has no sell price , sell price = 0
+index.js:123 Item Item_LettuceSeed has no sell price , sell price = 0
+index.js:123 Item Item_TomatoSeed has no sell price , sell price = 0
+index.js:123 Item Item_CornSeed has no sell price , sell price = 0
+index.js:123 Item Item_PotatoSeed has no sell price , sell price = 0
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 70
+index.js:73 Added 1 of item with id: 400101
+index.js:123 Bought item: Item_ChickenBaby
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 70
+index.js:73 Added 1 of item with id: 400103
+index.js:123 Bought item: Item_SheepBaby
+index.js:123 onBuyItemResult {success: true, data: {…}, message: '购买成功'}
+index.js:55 refreshBasePlayerStateInfo: level: 1
+index.js:55 playerState.prosperity: 0
+index.js:55 currentExp: 70
+index.js:73 Added 1 of item with id: 400102
+index.js:123 Bought item: Item_DuckBaby
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-48.31, 78.81, 0.00),touchPos = (1621.88, 531.01)
+index.js:49 Animal 2012 worldPos: (1439.84, 476.19, 0.00), localPos: (-48.31, 78.81, 0.00),touchPos = (1621.88, 531.01)
+index.js:49 Animal 2022 worldPos: (1365.82, 440.13, 0.00), localPos: (-48.31, 78.81, 0.00),touchPos = (1621.88, 531.01)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 3
+index.js:47 FarmSelectionWindow: onClick
+index.js:47 FarmSelectionWindow: onTouchEnd
+index.js:47 hide FarmSelectionWindow
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-48.31, 65.53, 0.00),touchPos = (1621.88, 517.72)
+index.js:49 Animal 2012 worldPos: (1439.84, 476.19, 0.00), localPos: (-48.31, 65.53, 0.00),touchPos = (1621.88, 517.72)
+index.js:49 Animal 2022 worldPos: (1365.82, 440.13, 0.00), localPos: (-48.31, 65.53, 0.00),touchPos = (1621.88, 517.72)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 3
+index.js:47 hide FarmSelectionWindow
+index.js:43 Dragging object 2011 to drag container
+index.js:43 endPosition = (1614.29, 508.23)
+index.js:49 result = [object Object]
+index.js:43 acceptedDropZone = Fence_02
+index.js:21 Starting cooldown with key "select" for 1 seconds
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:59 initializeWithSceneItem , id = 1732273474633
+index.js:59 careCount = 0 , treatCount = 0 , cleanseCount = 0
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 growth time: 5.1559998989105225
+index.js:59 updateSickState start..., isSick = false
+index.js:59 current growth stage index: 0
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Next disease update time: 3599.1559998989105
+index.js:49 addAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:49 addAnimal canAcceptAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:59 start growing 
+index.js:21 Starting cooldown with key "growth" for 5.1559998989105225 seconds
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (14.32, 46.55, 0.00),touchPos = (1684.51, 498.74)
+index.js:49 Animal 2012 worldPos: (1439.84, 476.19, 0.00), localPos: (14.32, 46.55, 0.00),touchPos = (1684.51, 498.74)
+index.js:49 Animal 2022 worldPos: (1365.82, 440.13, 0.00), localPos: (14.32, 46.55, 0.00),touchPos = (1684.51, 498.74)
+index.js:49 Animal 2011 worldPos: (1614.29, 508.23, 0.00), localPos: (14.32, 46.55, 0.00),touchPos = (1684.51, 498.74)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 2
+index.js:47 hide FarmSelectionWindow
+index.js:43 Dragging object 2021 to drag container
+index.js:43 endPosition = (1695.90, 504.43)
+index.js:49 result = [object Object]
+index.js:43 acceptedDropZone = Fence_02
+index.js:21 Starting cooldown with key "select" for 1 seconds
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:59 initializeWithSceneItem , id = 1732273477431
+index.js:59 careCount = 0 , treatCount = 0 , cleanseCount = 0
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 growth time: 5.1570000648498535
+index.js:59 updateSickState start..., isSick = false
+index.js:59 current growth stage index: 0
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Next disease update time: 3599.15700006485
+index.js:49 addAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:49 addAnimal canAcceptAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:59 start growing 
+index.js:21 Starting cooldown with key "growth" for 5.1570000648498535 seconds
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-19.84, -14.19, 0.00),touchPos = (1650.35, 438.00)
+index.js:49 Animal 2012 worldPos: (1439.84, 476.19, 0.00), localPos: (-19.84, -14.19, 0.00),touchPos = (1650.35, 438.00)
+index.js:49 Animal 2022 worldPos: (1365.82, 440.13, 0.00), localPos: (-19.84, -14.19, 0.00),touchPos = (1650.35, 438.00)
+index.js:49 Animal 2011 worldPos: (1614.29, 508.23, 0.00), localPos: (-19.84, -14.19, 0.00),touchPos = (1650.35, 438.00)
+index.js:49 Animal 2021 worldPos: (1695.90, 504.43, 0.00), localPos: (-19.84, -14.19, 0.00),touchPos = (1650.35, 438.00)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 1
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-33.13, -17.99, 0.00),touchPos = (1637.06, 434.21)
+index.js:49 Animal 2012 worldPos: (1439.84, 476.19, 0.00), localPos: (-33.13, -17.99, 0.00),touchPos = (1637.06, 434.21)
+index.js:49 Animal 2022 worldPos: (1365.82, 440.13, 0.00), localPos: (-33.13, -17.99, 0.00),touchPos = (1637.06, 434.21)
+index.js:49 Animal 2011 worldPos: (1614.29, 508.23, 0.00), localPos: (-33.13, -17.99, 0.00),touchPos = (1637.06, 434.21)
+index.js:49 Animal 2021 worldPos: (1695.90, 504.43, 0.00), localPos: (-33.13, -17.99, 0.00),touchPos = (1637.06, 434.21)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 1
+index.js:47 FarmSelectionWindow: onClick
+index.js:47 FarmSelectionWindow: onTouchEnd
+index.js:47 hide FarmSelectionWindow
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:49 Animal 2012 worldPos: (1847.00, 492.00, 0.00), localPos: (-19.84, -24.68, 0.00),touchPos = (1650.35, 427.51)
+index.js:49 Animal 2012 worldPos: (1439.84, 476.19, 0.00), localPos: (-19.84, -24.68, 0.00),touchPos = (1650.35, 427.51)
+index.js:49 Animal 2022 worldPos: (1365.82, 440.13, 0.00), localPos: (-19.84, -24.68, 0.00),touchPos = (1650.35, 427.51)
+index.js:49 Animal 2011 worldPos: (1614.29, 508.23, 0.00), localPos: (-19.84, -24.68, 0.00),touchPos = (1650.35, 427.51)
+index.js:49 Animal 2021 worldPos: (1695.90, 504.43, 0.00), localPos: (-19.84, -24.68, 0.00),touchPos = (1650.35, 427.51)
+index.js:47 updateFarmSelectionViewVisibilityByType: 4
+index.js:47 Show scroll view
+index.js:47 animation count: 1
+index.js:47 hide FarmSelectionWindow
+index.js:43 Dragging object 2031 to drag container
+index.js:59 request next growth 
+index.js:43 endPosition = (1644.66, 433.21)
+index.js:49 result = [object Object]
+index.js:43 acceptedDropZone = Fence_02
+index.js:21 Starting cooldown with key "select" for 1 seconds
+index.js:69 InputComponent: onClick
+index.js:105 Hit object: Fence_02
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 remainingTime = 0
+index.js:59 growth complete , current growth stage index: 1
+index.js:59 growth complete , growState = 2
+index.js:59 initializeWithSceneItem , id = 1732273480460
+index.js:59 careCount = 0 , treatCount = 0 , cleanseCount = 0
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 growth time: 5.156000137329102
+index.js:59 updateSickState start..., isSick = false
+index.js:59 current growth stage index: 0
+index.js:59 updateSickState start..., isSick = false
+index.js:59 Next disease update time: 3599.156000137329
+index.js:49 addAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:49 addAnimal canAcceptAnimal t {_objFlags: 59392, _name: '', node: i, _enabled: true, __prefab: Zb, …}
+index.js:59 start growing 
+index.js:21 Starting cooldown with key "growth" for 5.156000137329102 seconds
+index.js:59 request next growth 
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 remainingTime = 0
+index.js:59 growth complete , current growth stage index: 1
+index.js:59 growth complete , growState = 2
+index.js:59 request next growth 
+index.js:59 [GrowthableEntity:updateTotalGrowthTime] totalGrowthTime = 6
+index.js:59 remainingTime = 0
+index.js:59 growth complete , current growth stage index: 1
+index.js:59 growth complete , growState = 2
